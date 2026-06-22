@@ -37,3 +37,7 @@ button {
   margin: 0;
   box-sizing: border-box;
 }
+
+body{
+  font-family: "Montserrat";
+}
