@@ -1,0 +1,28 @@
+.hero-img {
+  height: 400px;
+  width: 100%px;
+  background: url(../img/hero-mobile.jpg) no-repeat;
+  background-size: cover;
+}
+
+/* Tablet */
+
+@media screen and (min-width: 768px) {
+  .hero-img {
+    height: 620px;
+    background: url(../img/hero-tablet.jpg) no-repeat;
+    background-size: cover;
+  }
+}
+
+/* Desktop */
+
+@media screen and (min-width: 1024px) {
+  .hero-img {
+    height: 620px;
+    background: url(../img/hero-desktop.jpg) no-repeat;
+    background-size: cover;
+  }
+}
+
+
