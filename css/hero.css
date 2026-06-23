@@ -1,0 +1,50 @@
+.hero-img {
+  height: 400px;
+  width: 100%px;
+  background: url(../img/hero-mobile.jpg) no-repeat;
+  background-size: cover;
+}
+
+.hero h2{
+    padding: 88px 24px;
+    text-align: center;
+    color: var(--text-primary-color);
+    font-weight: var(--text-weight);
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+
+/* Tablet */
+
+@media screen and (min-width: 768px) {
+  .hero-img {
+    height: 620px;
+    background: url(../img/hero-tablet.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  .hero h2{
+    padding: 88px 60px;
+    text-align: center;
+    font-size: 32px;
+}
+}
+
+/* Desktop */
+
+@media screen and (min-width: 1024px) {
+  .hero-img {
+    height: 620px;
+    background: url(../img/hero-desktop.jpg) no-repeat;
+    background-size: cover;
+  }
+
+   .hero h2{
+    padding: 104px 120px;
+    text-align: center;
+    font-size: 32px;
+}
+}
+
+
