@@ -1,0 +1,17 @@
+.item header {
+  display: block;
+  background-color: transparent;
+  position: static;
+  padding: 0;
+}
+
+.item{
+    width: 312px;
+    height: 754px;
+    font-size: 20px
+}
+
+.item h4{
+    font-size: 28px;
+    font-weight: var(--title-weight);
+}

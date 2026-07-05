@@ -18,6 +18,7 @@
   height: 220px;
   padding: 16px;
   border-radius: 8px;
+  box-sizing: border-box;
 }
 
 .category a {
