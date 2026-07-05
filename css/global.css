@@ -45,7 +45,9 @@ body {
 
 .section-title {
   text-align: center;
+  margin: 88px 0 32px 0;
 }
+
 .section-title h2 {
   font-weight: var(--title-weight);
   font-size: 28px;
@@ -60,17 +62,17 @@ hr {
   margin: 16px auto 32px;
 }
 
-.button{
-    width: 280px;
-    height: 64px;
-    background-color: var(--secondary-color);
-    color: var(--text-secondary-color);
-    font-size: 20px;
-    font-weight: var(--title-weight);
-    border-radius: 16px;
-    display: inline-block;
-    text-decoration: none;
-    line-height: 64px;
+.button {
+  width: 280px;
+  height: 64px;
+  background-color: var(--secondary-color);
+  color: var(--text-secondary-color);
+  font-size: 20px;
+  font-weight: var(--title-weight);
+  border-radius: 16px;
+  display: inline-block;
+  text-decoration: none;
+  line-height: 64px;
 }
 
 @media screen and (min-width: 768px) {
@@ -88,8 +90,7 @@ hr {
     margin: 16px auto 64px;
   }
 
-  .button:hover{
+  .button:hover {
     background-color: var(--primary-color);
   }
 }
-
