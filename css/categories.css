@@ -1,6 +1,5 @@
 .categories .section-title {
   width: 312px;
-  margin: 88px auto 32px;
 }
 
 .categories-list {
@@ -60,18 +59,11 @@
 
 @media screen and (min-width: 1024px) {
   .category {
-    width: 242px;
+    width: 420px;
   }
   .categories .section-title {
     width: auto;
   }
-}
-
-@media screen and (min-width: 1024px) {
-  .category {
-    width: 240px;
-  }
-  
 }
 
 @media screen and (min-width: 1440px) {
