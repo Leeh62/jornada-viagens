@@ -16,13 +16,6 @@
   text-align: center;
 }
 
-.card header {
-  display: block;
-  background-color: transparent;
-  position: static;
-  padding: 0;
-}
-
 .card header p {
   font-size: 20px;
   font-weight: var(--text-weigth);
@@ -67,7 +60,6 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
   }
 }
 
