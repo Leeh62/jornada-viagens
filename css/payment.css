@@ -47,7 +47,7 @@
 }
 
 @media screen and (min-width: 1440px) {
-   .payment-content.content-title {
+   .payment-content .content-title {
     width: 284px;
     margin: 0 0 24px 0;
   }
