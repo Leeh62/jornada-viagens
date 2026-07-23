@@ -66,6 +66,7 @@ section.hero {
 .content-title {
   font-size: 28px;
   font-weight: var(--title-weight);
+  margin: 24px 0;
 }
 
 .content-text {
