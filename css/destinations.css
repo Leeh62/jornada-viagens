@@ -9,16 +9,6 @@
   align-items: center;
 }
 
-.item {
-  font-size: 20px;
-}
-
-.item h4 {
-  font-size: 28px;
-  font-weight: var(--title-weight);
-  margin: 24px 0 24px 0;
-}
-
 .item .button {
   text-align: center;
   margin: 24px 0 40px 0;
@@ -41,7 +31,6 @@
 }
 
 @media screen and (min-width: 768px) {
-
   .destinations .section-title {
     width: auto;
   }
@@ -62,7 +51,6 @@
 }
 
 @media screen and (min-width: 1024px) {
-
   .destinations .section-title {
     width: auto;
   }
