@@ -1,3 +1,7 @@
+.testimonials{
+    margin-bottom: 88px;
+}
+
 .testimonial-container{
     display: flex;
     flex-direction: column;
@@ -29,7 +33,7 @@
 
 span.star {
     font-size: 32px;
-    color: var( --secondary-color);
+    color: var(--secondary-color);
 }
 
 @media screen and (min-width: 1440px) {
