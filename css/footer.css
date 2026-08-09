@@ -51,7 +51,12 @@ footer .container-footer {
   }
 
   .info-jornada {
-    width: 100%;
+    width: auto;
+    text-align: start;
+  }
+
+  .logo-footer {
+    margin: auto;
   }
 }
 
@@ -63,6 +68,9 @@ footer .container-footer {
 
   .info-jornada {
     width: auto;
-    text-align: left;
+  }
+
+  .logo-footer {
+    margin: 0;
   }
 }
