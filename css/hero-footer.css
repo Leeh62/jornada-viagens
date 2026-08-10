@@ -3,8 +3,9 @@
   background-size: cover;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 768px) {
   .hero.footer .hero-img {
+    height: 400px;
     background: url(../img/hero-footer-tablet.png) no-repeat;
     background-size: cover;
   }
@@ -14,5 +15,6 @@
   .hero.footer .hero-img {
     background: url(../img/hero-footer-desktop.png) no-repeat;
     background-size: cover;
+    height: 600px;
   }
 }
