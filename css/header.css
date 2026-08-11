@@ -38,10 +38,6 @@ nav {
   list-style: none;
 }
 
-li a.link-pacotes {
-  text-decoration: underline !important;
-}
-
 .list-links li a {
   color: var(--text-secondary-color);
   text-decoration: none;

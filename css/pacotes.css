@@ -1,0 +1,66 @@
+/* Header */
+
+li a.link-pacotes {
+  text-decoration: underline !important;
+}
+
+/* Hero */
+.hero-img.pacotes {
+  background: url(../img/pacote-montanha.png) no-repeat;
+  background-size: cover;
+  height: 460px;
+  display: flex;
+}
+
+.hero-pacotes-container {
+  display: flex;
+  flex-direction: column;
+  padding: 65px 24px;
+}
+
+.hero-img.pacotes h2 {
+  padding: 0;
+  margin: 0;
+  font-size: 48px;
+  color: var(--text-secondary-color);
+  font-weight: var(--title-weight);
+  text-align: start;
+  margin-bottom: 16px;
+  line-height: 60px;
+}
+
+.hero-img.pacotes p {
+  color: var(--text-secondary-color);
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.title-hero hr {
+  margin: 0 0 32px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-pacotes-container {
+    padding: 100px 95px;
+  }
+  .hero-img.pacotes {
+    background: url(../img/pacote-montanha-tablet.png) no-repeat;
+    background-size: cover;
+  }
+  .hero-img.pacotes p {
+    font-size: 32px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .hero-pacotes-container {
+    padding: 100px 120px;
+  }
+  .hero-img.pacotes {
+    background: url(../img/pacote-montanha-desktop.png) no-repeat;
+    background-size: cover;
+  }
+  .hero-img.pacotes p {
+    width: 560px;
+  }
+}
