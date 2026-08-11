@@ -65,3 +65,13 @@ li a.link-pacotes {
     width: 560px;
   }
 }
+
+/* Pagamento */
+
+.payment h3{
+  font-size: 40px;
+}
+
+.payment h4{
+  font-size: 28px;
+}

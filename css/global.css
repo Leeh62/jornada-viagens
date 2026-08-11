@@ -88,7 +88,7 @@ hr {
   color: var(--text-secondary-color);
   font-size: 20px;
   font-weight: var(--title-weight);
-  border-radius: 16px;
+  border-radius: 8px;
   display: inline-block;
   text-decoration: none;
   line-height: 64px;
