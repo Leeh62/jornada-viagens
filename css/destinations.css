@@ -35,6 +35,10 @@
     width: auto;
   }
 
+  .item .img-item {
+    height: 452px;
+  }
+
   .item.tokyo .img-item {
     background: url(../img/img-tokyo-tablet.jpg) no-repeat;
     background-size: cover;
