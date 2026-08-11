@@ -38,6 +38,10 @@ nav {
   list-style: none;
 }
 
+li a.link-pacotes {
+  text-decoration: underline !important;
+}
+
 .list-links li a {
   color: var(--text-secondary-color);
   text-decoration: none;
@@ -49,7 +53,7 @@ nav {
   margin: 16px;
 }
 
-.navigation-menu a:hover{
+.navigation-menu a:not(.link-pacotes):hover {
     color: var(--primary-color);
 }
 /* Tablet */
@@ -79,7 +83,6 @@ nav {
 /* Desktop */
 
 @media screen and (min-width: 1024px) {
-
   .main-header {
     padding: 38px 120px;
   }
