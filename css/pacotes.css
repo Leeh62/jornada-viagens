@@ -68,10 +68,68 @@ li a.link-pacotes {
 
 /* Pagamento */
 
-.payment h3{
-  font-size: 40px;
+.payment .text-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.payment h4{
+.payment .content-title{
+  font-size: 40px;
+  margin: 0;
+}
+
+.payment h4 {
   font-size: 28px;
+  margin: 24px 0;
+}
+
+.payment .image.first {
+  background: url(../img/japanese-temple-mobile.png) no-repeat;
+  background-size: cover;
+}
+
+.payment .image.second {
+  background: url(../img/japan-night-street-mobile.png) no-repeat;
+  background-size: cover;
+}
+
+.payment .image.third {
+  background: url(../img/torii-gates-mobile.png) no-repeat;
+  background-size: cover;
+}
+
+@media screen and (min-width: 768px) {
+  .payment .image.first {
+    background: url(../img/japanese-temple-tablet.png) no-repeat;
+    background-size: cover;
+  }
+
+  .payment .image.second {
+    background: url(../img/japan-night-street-tablet.png) no-repeat;
+    background-size: cover;
+  }
+
+  .payment .image.third {
+    background: url(../img/torii-gates-tablet.png) no-repeat;
+    background-size: cover;
+  }
+}
+
+
+@media screen and (min-width: 1440px) {
+  .payment .image.first {
+    background: url(../img/japanese-temple-desktop.png) no-repeat;
+    background-size: cover;
+  }
+
+  .payment .image.second {
+    background: url(../img/japan-night-street-desktop.png) no-repeat;
+    background-size: cover;
+  }
+
+  .payment .image.third {
+    background: url(../img/torii-gates-desktop.png) no-repeat;
+    background-size: cover;
+  }
 }
