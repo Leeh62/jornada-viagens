@@ -53,6 +53,12 @@ li a.link-pacotes {
   }
 }
 
+@media screen and (min-width: 1024px){
+  .hero-img.pacotes p {
+    width: 680px;
+  }
+}
+
 @media screen and (min-width: 1440px) {
   .hero-pacotes-container {
     padding: 158px 120px;
@@ -133,3 +139,5 @@ li a.link-pacotes {
     background-size: cover;
   }
 }
+
+
