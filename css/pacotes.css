@@ -141,3 +141,23 @@ li a.link-pacotes {
 }
 
 
+/* Hero-footer */
+
+.hero.footer.pacotes .hero-img {
+  background: url(../img/japan-lifestyle-mobile.png) no-repeat;
+  background-size: cover;
+}
+
+@media screen and (min-width: 1024px) {
+  .hero.footer.pacotes .hero-img {
+    background: url(../img/japan-lifestyle-tablet.png) no-repeat;
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .hero.footer.pacotes .hero-img {
+    background: url(../img/japan-lifestyle-desktop.png) no-repeat;
+    background-size: cover;
+  }
+}
