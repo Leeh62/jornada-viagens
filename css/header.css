@@ -45,11 +45,15 @@ nav {
   font-size: 22px;
 }
 
+.list-links a.active{
+  text-decoration: underline;
+}
+
 .list-links li {
   margin: 16px;
 }
 
-.navigation-menu a:not(.link-pacotes):hover {
+.navigation-menu a:hover {
     color: var(--primary-color);
 }
 /* Tablet */
@@ -102,4 +106,10 @@ nav {
   .main-header {
     padding: 38px 160px;
   }
+}
+
+/* Packages Page*/
+
+.list-links li a:active {
+  text-decoration: underline;
 }

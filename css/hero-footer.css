@@ -3,7 +3,10 @@
   background-size: cover;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 768px) {
+  .hero-img {
+    height: 400px;
+  }
   .hero.footer .hero-img {
     background: url(../img/hero-footer-tablet.png) no-repeat;
     background-size: cover;
@@ -13,6 +16,30 @@
 @media screen and (min-width: 1440px) {
   .hero.footer .hero-img {
     background: url(../img/hero-footer-desktop.png) no-repeat;
+    background-size: cover;
+  }
+  .hero-img {
+    height: 600px;
+  }
+}
+
+/* Packages Page */
+
+.hero.footer.packages .hero-img {
+  background: url(../img/japan-lifestyle-mobile.png) no-repeat;
+  background-size: cover;
+}
+
+@media screen and (min-width: 768px) {
+  .hero.footer.packages .hero-img {
+    background: url(../img/japan-lifestyle-tablet.png) no-repeat;
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .hero.footer.packages .hero-img {
+    background: url(../img/japan-lifestyle-desktop.png) no-repeat;
     background-size: cover;
   }
 }
