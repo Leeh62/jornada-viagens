@@ -48,3 +48,71 @@
 }
 
 
+/* Página de Pacotes */
+
+.hero-img.packages {
+  background: url(../img/mountain-packages-mobile.png) no-repeat;
+  background-size: cover;
+  height: 460px;
+  display: flex;
+}
+
+.hero-packages-container {
+  display: flex;
+  flex-direction: column;
+  padding: 65px 24px;
+}
+
+.hero-img.packages h2 {
+  padding: 0;
+  margin: 0;
+  font-size: 48px;
+  color: var(--text-secondary-color);
+  font-weight: var(--title-weight);
+  text-align: start;
+  margin-bottom: 16px;
+  line-height: 60px;
+}
+
+.hero-img.packages p {
+  color: var(--text-secondary-color);
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.title-hero hr {
+  margin: 0 0 32px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-packages-container {
+    padding: 158px 95px;
+  }
+  .hero-img.packages {
+    background: url(../img/mountain-packages-tablet.png) no-repeat;
+    background-size: cover;
+    height: 620px;
+  }
+  .hero-img.packages p {
+    font-size: 32px;
+  }
+}
+
+@media screen and (min-width: 1024px){
+  .hero-img.packages p {
+    width: 680px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .hero-packages-container {
+    padding: 158px 120px;
+  }
+  .hero-img.packages {
+    background: url(../img/mountain-packages-desktop.png) no-repeat;
+    background-size: cover;
+  }
+  .hero-img.packages p {
+    width: 560px;
+  }
+}
