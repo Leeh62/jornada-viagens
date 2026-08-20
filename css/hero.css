@@ -5,15 +5,14 @@
   background-size: cover;
 }
 
-.hero h2{
-    padding: 88px 24px 0 24px;
-    text-align: center;
-    color: var(--text-primary-color);
-    font-weight: var(--text-weight);
-    font-size: 20px;
-    line-height: 1.5;
+.hero h2 {
+  padding: 88px 24px 0 24px;
+  text-align: center;
+  color: var(--text-primary-color);
+  font-weight: var(--text-weight);
+  font-size: 20px;
+  line-height: 1.5;
 }
-
 
 /* Tablet */
 
@@ -24,11 +23,11 @@
     background-size: cover;
   }
 
-  .hero h2{
+  .hero h2 {
     padding: 88px 60px 0 60px;
     text-align: center;
     font-size: 32px;
-}
+  }
 }
 
 /* Desktop */
@@ -40,30 +39,29 @@
     background-size: cover;
   }
 
-   .hero h2{
+  .hero h2 {
     padding: 104px 120px 0 120px;
     text-align: center;
     font-size: 32px;
+  }
 }
-}
-
 
 /* Página de Pacotes */
 
-.hero-img.packages {
+.hero-img.img-container {
   background: url(../img/mountain-packages-mobile.png) no-repeat;
   background-size: cover;
   height: 460px;
   display: flex;
 }
 
-.hero-packages-container {
+.hero-container {
   display: flex;
   flex-direction: column;
   padding: 65px 24px;
 }
 
-.hero-img.packages h2 {
+.hero-img.img-container h2 {
   padding: 0;
   margin: 0;
   font-size: 48px;
@@ -74,7 +72,7 @@
   line-height: 60px;
 }
 
-.hero-img.packages p {
+.hero-img.img-container p {
   color: var(--text-secondary-color);
   font-size: 20px;
   font-weight: 300;
@@ -85,34 +83,34 @@
 }
 
 @media screen and (min-width: 768px) {
-  .hero-packages-container {
+  .hero-container {
     padding: 158px 95px;
   }
-  .hero-img.packages {
+  .hero-img.img-container {
     background: url(../img/mountain-packages-tablet.png) no-repeat;
     background-size: cover;
     height: 620px;
   }
-  .hero-img.packages p {
+  .hero-img.img-container p {
     font-size: 32px;
   }
 }
 
-@media screen and (min-width: 1024px){
-  .hero-img.packages p {
+@media screen and (min-width: 1024px) {
+  .hero-img.img-container p {
     width: 680px;
   }
 }
 
 @media screen and (min-width: 1440px) {
-  .hero-packages-container {
+  .hero-container {
     padding: 158px 120px;
   }
-  .hero-img.packages {
+  .hero-img.img-container {
     background: url(../img/mountain-packages-desktop.png) no-repeat;
     background-size: cover;
   }
-  .hero-img.packages p {
+  .hero-img.img-container p {
     width: 560px;
   }
 }
