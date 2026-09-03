@@ -114,3 +114,38 @@
     width: 560px;
   }
 }
+
+/* Página de Blog */
+
+.hero-img.img-container.blog {
+  background: url(../img/mountain-hiker-mobile.png) no-repeat;
+  background-size: cover;
+  height: 460px;
+  display: flex;
+}
+
+.hero-img.img-container.blog .hero-container {
+  padding: 81px 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-img.img-container.blog .hero-container {
+    padding: 150px 94px;
+  }
+
+  .hero-img.img-container.blog {
+    background: url(../img/mountain-hiker-tablet.png) no-repeat;
+    background-size: cover;
+    height: 620px;
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .hero-img.img-container.blog {
+    background: url(../img/mountain-hiker-desktop.png) no-repeat;
+    background-size: cover;
+    height: 620px;
+    display: flex;
+  }
+}
