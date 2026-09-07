@@ -1,0 +1,82 @@
+/* Página de Blog*/
+
+.tokyo-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tokyo-content h3 {
+  font-size: 28px;
+  font-weight: var(--title-weight);
+  margin: 32px 0 24px 0;
+}
+
+.tokyo-content p {
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+figure {
+  margin: 24px 0 0;
+  width: 100%;
+}
+
+.img-tokyo {
+  height: 360px;
+  width: 312px;
+}
+
+.img-tokyo.hotel {
+  background: url(../img/tokyo-hotel-mobile.png) no-repeat;
+  background-size: cover;
+}
+
+.img-tokyo.view {
+  background: url(../img/view-tokyo-night-mobile.png) no-repeat;
+  background-size: cover;
+}
+
+figcaption {
+  margin-top: 8px;
+  font-size: 14px;
+}
+
+@media screen and (min-width: 768px) {
+  .tokyo-content.arrival {
+    flex-direction: row;
+    gap: 24px;
+    align-items: start;
+  }
+
+  .tokyo-content.arrival h3 {
+    margin: 0px 0 24px 0;
+  }
+
+  .tokyo-content.arrival figure {
+    margin: 0;
+  }
+
+  .img-tokyo.view {
+    background: url(../img/view-tokyo-night-tablet.png) no-repeat;
+    background-size: cover;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .tokyo-content h3 {
+    margin: 48px 0 24px 0;
+  }
+
+  .img-tokyo.hotel {
+    background: url(../img/tokyo-hotel-desktop.png) no-repeat;
+    background-size: cover;
+    width: 588px;
+  }
+
+  .img-tokyo.view {
+    background: url(../img/view-tokyo-night-desktop.png) no-repeat;
+    background-size: cover;
+  }
+}
