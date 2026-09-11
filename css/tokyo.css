@@ -65,18 +65,15 @@ figcaption {
 }
 
 @media screen and (min-width: 1440px) {
-  .tokyo-content h3 {
-    margin: 48px 0 24px 0;
-  }
-
   .img-tokyo.hotel {
     background: url(../img/tokyo-hotel-desktop.png) no-repeat;
     background-size: cover;
     width: 588px;
   }
 
-  .img-tokyo.view {
-    background: url(../img/view-tokyo-night-desktop.png) no-repeat;
-    background-size: cover;
+  .tokyo-content h3 {
+    font-size: 28px;
+    font-weight: var(--title-weight);
+    margin: 48px 0 24px 0;
   }
 }
