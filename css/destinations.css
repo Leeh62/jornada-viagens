@@ -62,6 +62,10 @@
   .item .button {
     width: 280px;
   }
+
+  .item .img-item {
+    height: 350px;
+  }
 }
 
 @media screen and (min-width: 1440px) {
@@ -86,10 +90,6 @@
 
 /* Página de Blog */
 
-.destinations.blog{
-
-}
-
 .item.hiroshima .img-item {
   background: url(../img/img-hiroshima-mobile.png) no-repeat;
   background-size: cover;
@@ -113,5 +113,11 @@
   .item.kyoto .img-item {
     background: url(../img/img-kyoto-tablet.png) no-repeat;
     background-size: cover;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .destinations.blog .item {
+    width: 384px;
   }
 }

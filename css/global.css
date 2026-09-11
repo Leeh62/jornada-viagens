@@ -43,6 +43,10 @@ body {
   color: var(--text-primary-color);
 }
 
+p {
+  line-height: 1.6;
+}
+
 section {
   width: 312px;
   margin: 0 auto;
