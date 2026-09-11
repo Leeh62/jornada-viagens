@@ -149,3 +149,24 @@
     display: flex;
   }
 }
+
+/* Página de Contato */
+
+.hero-img.img-container.contact {
+  background: url(../img/hero-study-together-mobile.png) no-repeat;
+  background-size: cover;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-img.img-container.contact {
+    background: url(../img/hero-study-together-tablet.png) no-repeat;
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .hero-img.img-container.contact {
+    background: url(../img/hero-study-together-desktop.png) no-repeat;
+    background-size: cover;
+  }
+}
