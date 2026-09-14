@@ -23,7 +23,7 @@
   }
 }
 
-/* Packages Page */
+/* Página de pacotes */
 
 .hero.footer.packages .hero-img {
   background: url(../img/japan-lifestyle-mobile.png) no-repeat;
@@ -42,4 +42,29 @@
     background: url(../img/japan-lifestyle-desktop.png) no-repeat;
     background-size: cover;
   }
+}
+
+/* Página de contato */
+
+.hero.footer.contact .hero-img {
+  background: url(../img/girl-sunset-mobile.png) no-repeat;
+  background-size: cover;
+}
+
+@media screen and (min-width: 768px) {
+  .hero.footer.contact .hero-img {
+    background: url(../img/girl-sunset-tablet.png) no-repeat;
+    background-size: cover;
+  }
+  .hero-img.contact{
+    height: 600px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .hero.footer.contact .hero-img {
+    background: url(../img/girl-sunset-desktop.png) no-repeat;
+    background-size: cover;
+  }
+
 }

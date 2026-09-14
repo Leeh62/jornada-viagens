@@ -30,6 +30,11 @@ input[type="checkbox"]:checked ~ nav {
   width: 100%;
   background-color: var(--background-tertiary-color);
 }
+
+.navigation-menu label{
+   cursor: pointer;
+}
+
 nav {
   display: none;
 }

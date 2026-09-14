@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Entre em contato com a Jornada Viagens para tirar dúvidas, enviar sugestões ou saber mais sobre nossos destinos e serviços."">
     <title>Contato - Jornada Viagens</title>
 
     <link rel="stylesheet" href="../css/style.css" />
@@ -86,6 +87,7 @@
                 type="text"
                 name="name"
                 id="name"
+                autocomplete="name"
                 placeholder=" "
                 required
               />
@@ -98,6 +100,8 @@
                   type="tel"
                   name="phone"
                   id="phone"
+                  autocomplete="tel"
+                  maxlength="11"
                   placeholder=" "
                   required
                 />
@@ -109,6 +113,7 @@
                   type="email"
                   name="email"
                   id="email"
+                  autocomplete="email"
                   placeholder=" "
                   required
                 />
@@ -121,6 +126,7 @@
                 type="text"
                 name="subject"
                 id="subject"
+                autocomplete="off"
                 placeholder=" "
                 required
               />
@@ -143,6 +149,51 @@
           </div>
         </form>
       </section>
+
+      <section class="hero footer contact">
+        <div class="hero-img contact"></div>
+      </section>
     </main>
+
+    <footer>
+      <div class="container-footer">
+        <div class="info-jornada">
+          <div class="logo-footer">
+            <img
+              src="../img/logo-jornada-footer.png"
+              alt="Logo da Jornada Viagens"
+            />
+          </div>
+          <address>
+            Horário de atendimento: 08h - 20h (Segunda a Sábado)
+          </address>
+          <p>Desenvolvido por Alura. Projeto fictício sem fins comerciais.</p>
+        </div>
+
+        <div class="network-jornada">
+          <p>Acesse nossas redes:</p>
+
+          <ul class="list-networks">
+            <li>
+              <a href="#" title="Acessar WhatsApp da Jornada Viagens">
+                <img src="../img/whatsapp.png" alt="Logo do WhatsApp" />
+              </a>
+            </li>
+
+            <li>
+              <a href="#" title="Acessar Instagram da Jornada Viagens">
+                <img src="../img/instagram.png" alt="Logo do Instagram" />
+              </a>
+            </li>
+
+            <li>
+              <a href="#" title="Acessar Twitter da Jornada Viagens">
+                <img src="../img/twitter.png" alt="Logo do Twitter" />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
