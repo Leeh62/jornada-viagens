@@ -1,14 +1,14 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contato - Jornada Viagens</title>
 
     <link rel="stylesheet" href="../css/style.css" />
     <link rel="icon" href="../img/favico.svg" type="xml/svg" />
-</head>
-<body>
+  </head>
+  <body>
     <header class="main-header">
       <a class="logo" href="../index.html" title="Voltar para a página inicial">
         <img
@@ -19,7 +19,7 @@
         <img
           class="img-desktop"
           src="../img/bussola-texto-jornada-branco.png"
-          alt="Logo Jornada Viagens na cor branca" 
+          alt="Logo Jornada Viagens na cor branca"
         />
       </a>
       <div class="navigation-menu">
@@ -36,7 +36,11 @@
               >
             </li>
             <li>
-              <a class="active" href="contato.html" target="_blank" title="Acessar Contato"
+              <a
+                class="active"
+                href="contato.html"
+                target="_blank"
+                title="Acessar Contato"
                 >Contato</a
               >
             </li>
@@ -53,10 +57,92 @@
               <hr />
             </div>
             <p>
-              Dúvidas, sugestões, problemas para resolver? Temos uma equipe de plantão para ajudar você!
+              Dúvidas, sugestões, problemas para resolver? Temos uma equipe de
+              plantão para ajudar você!
             </p>
           </div>
         </div>
       </section>
-</body>
+
+      <section class="form-contact">
+        <div class="section-title">
+          <h2>Preencha o Formulário:</h2>
+          <hr />
+        </div>
+        <div class="form-text">
+          <p>
+            Temos uma equipe sempre em prontidão para resolver suas dúvidas,
+            problemas, trazer dicas e orientações objetivas para tornar sua
+            experiência o mais prazerosa e tranquila possível. Preencha seus
+            dados que vamos retornar seu contato conforme a urgência do seu
+            chamado. Pode confiar!
+          </p>
+        </div>
+
+        <form action="#" method="post">
+          <div class="form-input">
+            <div>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder=" "
+                required
+              />
+              <label for="name">Seu nome</label>
+            </div>
+
+            <div class="input-container">
+              <div>
+                <input
+                  type="tel"
+                  name="phone"
+                  id="phone"
+                  placeholder=" "
+                  required
+                />
+                <label for="phone">Telefone</label>
+              </div>
+
+              <div>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder=" "
+                  required
+                />
+                <label for="email">E-mail</label>
+              </div>
+            </div>
+
+            <div>
+              <input
+                type="text"
+                name="subject"
+                id="subject"
+                placeholder=" "
+                required
+              />
+              <label for="subject">Assunto</label>
+            </div>
+
+            <div>
+              <label class="label-textarea" for="description">Descrição</label>
+              <textarea
+                name="description"
+                id="description"
+                placeholder=" "
+                required
+              ></textarea>
+            </div>
+          </div>
+
+          <div class="submit-button">
+            <button class="button" type="submit">Enviar!</button>
+          </div>
+        </form>
+      </section>
+    </main>
+  </body>
 </html>
