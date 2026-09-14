@@ -1,3 +1,7 @@
+.form-contact{
+  margin-bottom: 88px;
+}
+
 .form-text {
   text-align: center;
   margin: 56px 0 56px;
@@ -30,7 +34,7 @@
   position: absolute;
   pointer-events: none;
   transition: all 0.2s ease;
-  color: #8c8c8c;
+  color: var(--text-primary-color);
 }
 
 .form-input input {
@@ -50,13 +54,7 @@
 .form-input input:focus + label {
   top: -20px;
   font-size: 18px;
-  color: var(--text-primary-color);
-}
-
-.form-input input:focus + label,
-.form-input input:not(:placeholder-shown) + label {
-  top: -20px;
-  font-size: 18px;
+  color: var(--background-tertiary-color);
 }
 
 .form-input .label-textarea {
@@ -73,7 +71,24 @@
   border: 2px solid #d9d9d9;
   font-family: "Montserrat";
   height: 90px;
+  resize: none;
+  transition: border-color 0.2s ease;
 }
+
+.form-input input:focus + label,
+.form-input input:not(:placeholder-shown) + label {
+  top: -20px;
+  font-size: 18px;
+}
+
+.form-input > div:focus-within .label-textarea {
+  color: var(--background-tertiary-color);
+}
+
+.form-input textarea:focus {
+  border-color: var(--secondary-color);
+}
+
 
 .form-contact .submit-button {
   display: flex;
@@ -95,12 +110,12 @@
   }
 }
 
-@media screen and (min-width: 1024px){
-  .form-input{
+@media screen and (min-width: 1024px) {
+  .form-input {
     align-items: center;
   }
 
-  .form-input div{
+  .form-input div {
     width: 690px;
   }
 
@@ -111,8 +126,8 @@
   }
 }
 
-@media screen and (min-width: 1440px){
-  .form-input div{
+@media screen and (min-width: 1440px) {
+  .form-input div {
     width: 790px;
   }
 }
